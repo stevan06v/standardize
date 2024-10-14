@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "phonenumber-standardizer"
+version = "0.1.0"
+description = ""
+authors = ["stevan06v <stevanvlajic5@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+phonenumbers = "^8.13.45"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
